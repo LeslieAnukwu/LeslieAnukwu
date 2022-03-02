@@ -1,43 +1,63 @@
-body {
-    margin: 60px auto;
-    width: 70%;
+.header{
+  background: #517373;
+  padding: 5px;
+  font-family: Geneva, Verdana, sans-serif;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+.headshot{
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 3em;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+.services{
+  background:#7AB3BF;
+  padding: 3em;
+  text-align: center;
+}
+.experience{
+  background:#9ACDD9;
+  padding: 10px;
+}
+.mywork{
+  background:#DCEEF2;
+  text-align: center;
+  padding: 5px;
+}
+.box {
+  background-color: #444;
+  color: #fff;
+  padding: 20px;
+  font-size: 100%;
+  text-align: center;
+}
+
+.box:nth-child(even) {
+  background-color: #ccc;
+  color: #000;
+}
+.wrapper {
+  width: 600px;
+  display: grid;
+  grid-gap: 15px;
+  row-gap: 15px;
+  grid-template-columns: repeat(6, 100px);
+  grid-template-rows: 100px 100px 100px;
+  grid-auto-flow: column;
+}
+.pastjobs{
+  background:#B6DBF2;
+  padding: 5px;
+}
+.footer{
+  background:#E8FBFF;
+  text-align: center;
+  font-size: 19px;
+  padding: 5px;
 }
 a {
-    text-decoration: none;
-    color: #999;
+  transition: background-color .5s;
 }
+
 a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
+  background-color: gold;
 }
